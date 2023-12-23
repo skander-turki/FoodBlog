@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>GoMyTech</title>
+  </head>
+
+  <body>
+    <header id="home">
+        <!-- cette partie est la partie tete-->
+        <nav class="appbar">
+            <img class="logo" src="https://res.cloudinary.com/turkiskander/image/upload/v1703360704/LogoTest_WhiteVersion_p0attc.png" >
+            <ul class="navigation-list">
+                <li class="navigation-link"><a href="#home">home</a></li>
+                <li class="navigation-link"><a href="#work">work</a></li>
+                <li class="navigation-link"><a href="#about">about</a></li>
+                <li class="navigation-link"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section id="work">
+        <audio controls>
+          <source src="Assets/RagnarSpeech1.mp3" type="audio/mpeg">
+              Please Check the audio Extension
+        </audio>
+        <video width="320" height="240" controls autoplay muted>
+          <source src="Assets/Luffy&Usopp.mp4" type="video/mp4" />
+          Please Check the video extension.
+        </video>
+        <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/xt8VN63Fx2A?si=Ih3aETPqme1FWiFD" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+        </iframe>
+      </section>
+      <section id="about">
+        <ol type="a">
+          <li>Khalil</li>
+          <li>Anas</li>
+          <li>Younes</li>
+        </ol>
+        <table border="3">
+          <tr>
+            <th>web fundamentals</th>
+            <th>Git & Github</th>
+            <th>html</th>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>9</td>
+            <td>10</td>
+          </tr>
+        </table>
+      </section>
+
+
+      <section id="contact">
+        <form action="submit">
+          <div>
+            <label>Name:</label>
+            <input type="text" placeholder="Name" />
+          </div>
+          <br>
+          <div>
+            <label>Lastname:</label>
+            <input type="text" placeholder="Lastname" />
+          </div>
+          <br>
+          <div>
+            <label>Phone number:</label>
+            <input type="number" placeholder="Phonenumber" />
+          </div>
+          <br>
+          <div>
+            <label>date de naissance:</label>
+            <input type="date" placeholder="Lastname" />
+          </div>
+          <br>
+          <div>
+            <label>Email:</label>
+            <input type="text" placeholder="Email" />
+          </div>
+          <br>
+          <label>Choose track :</label>
+          <select>
+            <option value="WebTrack">Web Track</option>
+            <option value="AITrack">AI Track</option>
+            <option value="GameTrack">Game Track</option>
+            <option value="DataScienceTrack">Data Science Track</option>
+          </select>
+          <!-- Methode de youness-->
+          <p>Password <input type="password" placeholder="Password"></p>
+          <br>
+          <label>Message :</label>
+          <textarea name="message" cols="30" rows="5">
+          </textarea>
+          <br>
+          <button type="submit">Valider</button>
+          <button type="reset">Reset</button>
+          <br>
+        </form>
+      </section>
+
+      <div>
+        <br>
+        <a href="#home"> Go top</a>
+        <br>
+        <br>
+      </div>
+<br><br><br>
+        <div style="border: 1px solid black; width: 50%; text-align: center;">
+          hello my friend 1
+        </div>
+        <div style="border: 1px solid black; width: 50%; text-align: center;margin-top: 20px; padding-top: 20px;">
+          hello my friend
+        </div>
+        <div style="border: 1px solid black; width: 50%; text-align: center;">
+          hello my friend 2
+        </div>
+<br><br><br>
+    </main>
+    <footer style="background-color: black; height: 200px;">
+
+    </footer>
+   
+    
+  </body>
+</html>
